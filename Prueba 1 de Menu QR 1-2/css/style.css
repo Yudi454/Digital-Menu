@@ -1,0 +1,43 @@
+:root{
+    --color-proteinas:rgba(255, 100, 100, 0.700);
+    
+    --color-guantes: rgba(100, 255, 100, 0.700);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    background-image: url("../img/fondo.jpg");
+    background-size: 100%;
+    background-repeat: round;
+    backdrop-filter: blur(10px);
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 80% !important;
+    background-color: white;
+}
+
+.proteinas-hover:hover{
+    box-shadow:  0px 10px 15px 5px var(--color-proteinas) ;
+    transition: box-shadow  0.3s ease-in-out;
+}
+
+.guantes-hover:hover{
+    box-shadow:  0px 10px 15px 5px var(--color-guantes);
+}
+
+.prueba-filter{
+    filter: grayscale(100%);
+}
