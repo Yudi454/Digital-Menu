@@ -1,0 +1,16 @@
+body{
+    background-image: url("../img/fondo.jpg");
+    background-size: 100%;
+    backdrop-filter: blur(10px);
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: white;
+}
